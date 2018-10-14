@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo $1 | ./my_router topology.txt H | tee outputH.txt

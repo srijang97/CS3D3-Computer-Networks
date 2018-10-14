@@ -1,0 +1,5 @@
+#!/bin/bash
+
+./my_router topology.txt A | tee outputA.txt & sleep 1 & ./my_router topology.txt B | tee outputB.txt & sleep 1 & 
+./my_router topology.txt C | tee outputC.txt & sleep 1 & ./my_router topology.txt D | tee outputD.txt & sleep 1 &
+./my_router topology.txt E | tee outputE.txt & sleep 1 & ./my_router topology.txt F | tee outputF.txt & sleep 1
